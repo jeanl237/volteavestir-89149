@@ -57,33 +57,33 @@ const BenefitsSection: React.FC = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="relative">
+          <div className="relative flex justify-center">
             <img 
               src={benefitsImage} 
               alt="Mulheres felizes vivenciando os benefícios da transformação" 
-              className="w-full h-auto rounded-xl shadow-xl"
+              className="w-full max-w-md h-auto rounded-xl shadow-xl"
             />
             <div className="absolute -bottom-4 -right-4 bg-verde-principal text-white px-6 py-3 rounded-lg shadow-lg font-bold">
               ✨ Sua Nova Vida Te Espera!
             </div>
           </div>
 
-          <div className="grid gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {benefits.map((benefit, index) => {
               const Icon = benefit.icon;
               return (
                 <div 
                   key={index}
-                  className="flex items-start space-x-4 p-6 bg-gradient-to-r from-neutro-claro/50 to-white rounded-xl hover:shadow-lg transition-shadow duration-300"
+                  className="flex flex-col items-center text-center p-6 bg-gradient-to-br from-neutro-claro/50 to-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100"
                 >
-                  <div className={`w-12 h-12 rounded-full bg-white flex items-center justify-center shadow-md ${benefit.color}`}>
-                    <Icon className="w-6 h-6" />
+                  <div className={`w-16 h-16 rounded-full bg-white flex items-center justify-center shadow-md mb-4 ${benefit.color}`}>
+                    <Icon className="w-8 h-8" />
                   </div>
                   <div>
-                    <h3 className="text-lg font-bold text-neutro-escuro mb-2">
+                    <h3 className="text-lg font-bold text-neutro-escuro mb-3">
                       {benefit.title}
                     </h3>
-                    <p className="text-gray-600 leading-relaxed">
+                    <p className="text-gray-600 leading-relaxed text-sm">
                       {benefit.description}
                     </p>
                   </div>

@@ -8,37 +8,59 @@ const HeroSection: React.FC = () => {
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-neutro-escuro leading-tight">
-              Volte a Usar Suas 
-              <span className="text-verde-principal"> Roupas Favoritas</span> 
-              em Poucos Meses
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-left">
+              <div className="text-neutro-escuro">Volte a Usar Suas</div>
+              <div className="text-verde-principal">Roupas Favoritas</div>
+              <div className="text-neutro-escuro">em Poucos Meses</div>
             </h1>
             <h2 className="text-xl md:text-2xl text-gray-600 leading-relaxed">
               Descubra os <strong>9 hábitos simples</strong> que vão te fazer emagrecer de forma 
               <strong className="text-verde-secundario"> natural e sustentável</strong>, 
               sem dietas malucas ou exercícios extenuantes.
             </h2>
-            <div className="bg-azul-detalhe/10 border-l-4 border-azul-detalhe p-6 rounded-r-lg">
-              <p className="text-lg text-neutro-escuro">
+          </div>
+          <div className="relative flex flex-col items-center space-y-4">
+            <div className="relative">
+              <img 
+                src={heroImage} 
+                alt="Antes - Mulher com roupas largas" 
+                className="w-full max-w-sm h-auto rounded-lg shadow-2xl"
+              />
+              <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-neutro-escuro text-white px-3 py-1 rounded-full text-sm font-bold">
+                ANTES
+              </div>
+            </div>
+            <div className="text-center">
+              <div className="w-8 h-8 bg-verde-principal rounded-full flex items-center justify-center mx-auto">
+                <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                </svg>
+              </div>
+            </div>
+            <div className="relative">
+              <img 
+                src={heroImage} 
+                alt="Depois - Mulher feliz com roupas que servem perfeitamente" 
+                className="w-full max-w-sm h-auto rounded-lg shadow-2xl"
+              />
+              <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-verde-principal text-white px-3 py-1 rounded-full text-sm font-bold">
+                DEPOIS
+              </div>
+              <div className="absolute -bottom-4 -right-4 bg-laranja-cta text-white px-4 py-2 rounded-full font-bold shadow-lg animate-pulse">
+                ✨ Resultado Real!
+              </div>
+            </div>
+          </div>
+        </div>
+            <div className="bg-azul-detalhe/10 border-l-4 border-azul-detalhe p-6 rounded-r-lg mt-8">
+              <p className="text-lg text-neutro-escuro text-center">
                 <strong>⏱️ Assista ao vídeo exclusivo abaixo</strong> e descubra como milhares de mulheres 
                 estão transformando seus corpos e recuperando a autoestima!
               </p>
             </div>
-          </div>
-          <div className="relative">
-            <img 
-              src={heroImage} 
-              alt="Mulher feliz mostrando perda de peso com calça larga" 
-              className="w-full h-auto rounded-lg shadow-2xl"
-            />
-            <div className="absolute -top-4 -right-4 bg-laranja-cta text-white px-4 py-2 rounded-full font-bold shadow-lg animate-pulse">
-              ✨ Resultado Real!
-            </div>
-          </div>
-        </div>
         
         {/* VSL Area */}
-        <div className="mt-16 bg-white rounded-xl shadow-lg p-8">
+        <div className="mt-16 bg-white rounded-xl shadow-lg p-8 mx-auto max-w-4xl">
           <h3 className="text-2xl md:text-3xl font-bold text-center text-neutro-escuro mb-8">
             🎥 Assista Agora: O Segredo Para Emagrecer Sem Sofrimento
           </h3>

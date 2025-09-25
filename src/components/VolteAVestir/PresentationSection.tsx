@@ -25,7 +25,7 @@ const PresentationSection: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid md:grid-cols-2 gap-12 items-start">
           <div className="space-y-8">
             <div className="bg-gradient-to-r from-verde-principal/10 to-verde-secundario/10 p-6 rounded-xl border-l-4 border-verde-principal">
               <h3 className="text-2xl font-bold text-neutro-escuro mb-4">
@@ -39,17 +39,6 @@ const PresentationSection: React.FC = () => {
                   </li>
                 ))}
               </ul>
-            </div>
-
-            <div className="bg-azul-detalhe/10 p-6 rounded-xl">
-              <h4 className="text-xl font-bold text-neutro-escuro mb-3">
-                💡 <span className="text-azul-detalhe">Diferencial Único:</span>
-              </h4>
-              <p className="text-gray-700 leading-relaxed">
-                Ao contrário de outros métodos que prometem milagres overnight, 
-                o "Volta a Vestir" foca em <strong>mudanças graduais e sustentáveis</strong> que 
-                se integram naturalmente ao seu estilo de vida atual.
-              </p>
             </div>
           </div>
 
@@ -78,6 +67,19 @@ const PresentationSection: React.FC = () => {
                 <span>⚡ Download Imediato</span>
               </div>
             </div>
+          </div>
+        </div>
+
+        <div className="mt-12 text-center">
+          <div className="bg-azul-detalhe/10 p-8 rounded-xl max-w-4xl mx-auto">
+            <h4 className="text-2xl font-bold text-neutro-escuro mb-4">
+              💡 <span className="text-azul-detalhe">Diferencial Único:</span>
+            </h4>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Ao contrário de outros métodos que prometem milagres overnight, 
+              o "Volta a Vestir" foca em <strong>mudanças graduais e sustentáveis</strong> que 
+              se integram naturalmente ao seu estilo de vida atual.
+            </p>
           </div>
         </div>
       </div>

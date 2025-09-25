@@ -7,32 +7,32 @@ const BonusSection: React.FC = () => {
     {
       title: "Planner Semanal de Refeições Personalizável",
       description: "Template para organizar suas refeições da semana de forma prática e eficiente.",
-      value: "R$ 47"
+      value: "R$ 67"
     },
     {
       title: "Guia Rápido de Substituições Inteligentes",
       description: "Lista completa de trocas saudáveis para seus alimentos favoritos sem perder o sabor.",
-      value: "R$ 37"
+      value: "R$ 47"
     },
     {
       title: "Checklist de Hábitos Diários para Emagrecimento",
       description: "Ferramenta para acompanhar seus 9 hábitos diários e manter a consistência.",
-      value: "R$ 27"
+      value: "R$ 37"
     },
     {
       title: "Planilha de Acompanhamento de Medidas e Progresso",
       description: "Controle detalhado da sua evolução com gráficos e métricas motivadoras.",
-      value: "R$ 57"
+      value: "R$ 77"
     },
     {
       title: "Lista de Compras Inteligente para o Supermercado",
       description: "Template organizado por categoria para nunca esquecer os alimentos essenciais.",
-      value: "R$ 23"
+      value: "R$ 33"
     },
     {
       title: "MEGA BÔNUS: Guia de Lanches Saudáveis para Levar",
       description: "50+ receitas práticas de lanches nutritivos para levar para o trabalho, viagem ou qualquer lugar.",
-      value: "R$ 67",
+      value: "R$ 97",
       isMegaBonus: true
     }
   ];
@@ -76,12 +76,12 @@ const BonusSection: React.FC = () => {
                   </div>
                 )}
                 <div className="flex justify-between items-start mb-3">
-                  <h3 className={`text-lg font-bold ${bonus.isMegaBonus ? 'text-white' : 'text-neutro-escuro'}`}>
+                  <h3 className={`text-lg font-bold flex-1 pr-4 ${bonus.isMegaBonus ? 'text-white' : 'text-neutro-escuro'}`}>
                     {bonus.title}
                   </h3>
-                  <span className={`text-lg font-bold ${bonus.isMegaBonus ? 'text-white' : 'text-verde-principal'}`}>
+                  <div className={`text-lg font-bold text-right flex-shrink-0 ${bonus.isMegaBonus ? 'text-white' : 'text-verde-principal'}`}>
                     {bonus.value}
-                  </span>
+                  </div>
                 </div>
                 <p className={`${bonus.isMegaBonus ? 'text-white/90' : 'text-gray-600'}`}>
                   {bonus.description}

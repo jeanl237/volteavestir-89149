@@ -27,7 +27,7 @@ const VolteAVestirLanding: React.FC = () => {
       <CTASection 
         title="🎯 Não Deixe Mais Um Dia Passar Sem Agir!"
         subtitle="Sua transformação começa agora. Clique no botão abaixo e tenha acesso imediato ao método que vai mudar sua vida."
-        buttonText="🔥 QUERO MEU E-BOOK AGORA POR R$ 47!"
+        buttonText="🔥 QUERO MEU E-BOOK AGORA POR R$ 97!"
         priceInfo={true}
       />
       

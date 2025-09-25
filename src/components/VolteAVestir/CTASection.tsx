@@ -34,8 +34,9 @@ const CTASection: React.FC<CTASectionProps> = ({
           <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl mb-8">
             <div className="grid md:grid-cols-2 gap-6 items-center">
               <div>
-                <div className="text-lg opacity-75 line-through mb-2">De R$ 305</div>
-                <div className="text-5xl font-bold mb-2">R$ 47</div>
+                <div className="text-lg opacity-75 line-through mb-2">De R$ 197</div>
+                <div className="text-5xl font-bold mb-2">R$ 97</div>
+                <div className="text-sm font-bold text-laranja-cta bg-white/20 px-3 py-1 rounded-full">51% OFF</div>
                 <div className="text-sm opacity-75">Pagamento único • Sem mensalidades</div>
               </div>
               <div className="space-y-3 text-left">
@@ -45,7 +46,7 @@ const CTASection: React.FC<CTASectionProps> = ({
                 </div>
                 <div className="flex items-center space-x-2">
                   <Check className="w-5 h-5" />
-                  <span>6 Bônus exclusivos (R$ 258 grátis)</span>
+                  <span>6 Bônus exclusivos (R$ 358 grátis)</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Check className="w-5 h-5" />
