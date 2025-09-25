@@ -8,33 +8,42 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Brand Colors - Volta a Vestir */
+    --verde-principal: 146 95% 31%;  /* #049d51 */
+    --verde-secundario: 146 84% 37%; /* #10b259 */
+    --laranja-cta: 33 100% 50%;      /* #FF8C00 */
+    --neutro-claro: 0 0% 96%;        /* #F5F5F5 */
+    --neutro-escuro: 0 0% 20%;       /* #333333 */
+    --azul-detalhe: 204 45% 61%;     /* #71a3c6 */
+
+    /* Semantic Design System */
+    --background: var(--neutro-claro);
+    --foreground: var(--neutro-escuro);
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: var(--neutro-escuro);
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: var(--neutro-escuro);
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: var(--verde-principal);
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: var(--verde-secundario);
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 0 0% 95%;
+    --muted-foreground: 0 0% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: var(--azul-detalhe);
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: var(--verde-principal);
 
     --radius: 0.5rem;
 

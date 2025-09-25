@@ -14,6 +14,15 @@ export default {
     },
     extend: {
       colors: {
+        // Volta a Vestir Brand Colors
+        "verde-principal": "hsl(var(--verde-principal))",
+        "verde-secundario": "hsl(var(--verde-secundario))",
+        "laranja-cta": "hsl(var(--laranja-cta))",
+        "neutro-claro": "hsl(var(--neutro-claro))",
+        "neutro-escuro": "hsl(var(--neutro-escuro))",
+        "azul-detalhe": "hsl(var(--azul-detalhe))",
+        
+        // Semantic tokens
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
