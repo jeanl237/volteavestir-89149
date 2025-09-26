@@ -25,7 +25,7 @@ const HeroSection: React.FC = () => {
               <img 
                 src={beforeImage} 
                 alt="Antes - Mulher com roupas largas" 
-                className="w-full h-[400px] object-cover rounded-lg shadow-2xl"
+                className="w-full h-[350px] object-contain rounded-lg shadow-2xl bg-white"
               />
               <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-neutro-escuro text-white px-3 py-1 rounded-full text-sm font-bold">
                 ANTES
@@ -35,7 +35,7 @@ const HeroSection: React.FC = () => {
               <img 
                 src={afterImage} 
                 alt="Depois - Mulher feliz com roupas que servem perfeitamente" 
-                className="w-full h-[400px] object-cover rounded-lg shadow-2xl"
+                className="w-full h-[350px] object-contain rounded-lg shadow-2xl bg-white"
               />
               <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-verde-principal text-white px-3 py-1 rounded-full text-sm font-bold">
                 DEPOIS
