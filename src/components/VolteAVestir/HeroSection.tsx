@@ -20,22 +20,22 @@ const HeroSection: React.FC = () => {
               sem dietas malucas ou exercícios extenuantes.
             </h2>
           </div>
-          <div className="flex justify-center gap-2 h-full">
-            <div className="relative flex-1 max-w-[200px]">
+          <div className="flex justify-center gap-3 h-full">
+            <div className="relative flex-1 max-w-[280px]">
               <img 
                 src={beforeImage} 
                 alt="Antes - Mulher com roupas largas" 
-                className="w-full h-[350px] object-contain rounded-lg shadow-2xl bg-white"
+                className="w-full h-[450px] object-contain rounded-lg shadow-2xl bg-white"
               />
               <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-neutro-escuro text-white px-3 py-1 rounded-full text-sm font-bold">
                 ANTES
               </div>
             </div>
-            <div className="relative flex-1 max-w-[200px]">
+            <div className="relative flex-1 max-w-[280px]">
               <img 
                 src={afterImage} 
                 alt="Depois - Mulher feliz com roupas que servem perfeitamente" 
-                className="w-full h-[350px] object-contain rounded-lg shadow-2xl bg-white"
+                className="w-full h-[450px] object-contain rounded-lg shadow-2xl bg-white"
               />
               <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-verde-principal text-white px-3 py-1 rounded-full text-sm font-bold">
                 DEPOIS
