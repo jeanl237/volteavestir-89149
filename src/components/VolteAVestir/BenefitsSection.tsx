@@ -1,6 +1,7 @@
 import React from 'react';
 import { Heart, Zap, Target, Smile, ShoppingBag, Users } from 'lucide-react';
 import benefitsImage from '@/assets/lp-image-benefits-realistic.jpg';
+import benefitsImage2 from '@/assets/lp-image-benefits-2.jpg';
 
 const BenefitsSection: React.FC = () => {
   const benefits = [
@@ -57,14 +58,26 @@ const BenefitsSection: React.FC = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="relative flex justify-center">
-            <img 
-              src={benefitsImage} 
-              alt="Mulheres felizes vivenciando os benefícios da transformação" 
-              className="w-full max-w-md h-auto rounded-xl shadow-xl"
-            />
-            <div className="absolute -bottom-4 -right-4 bg-verde-principal text-white px-6 py-3 rounded-lg shadow-lg font-bold">
-              ✨ Sua Nova Vida Te Espera!
+          <div className="space-y-6">
+            <div className="relative flex justify-center">
+              <img 
+                src={benefitsImage} 
+                alt="Mulheres felizes vivenciando os benefícios da transformação" 
+                className="w-full max-w-md h-auto rounded-xl shadow-xl"
+              />
+              <div className="absolute -bottom-4 -right-4 bg-verde-principal text-white px-6 py-3 rounded-lg shadow-lg font-bold">
+                ✨ Sua Nova Vida Te Espera!
+              </div>
+            </div>
+            <div className="relative flex justify-center">
+              <img 
+                src={benefitsImage2} 
+                alt="Mulher feliz experimentando roupas que servem perfeitamente" 
+                className="w-full max-w-md h-auto rounded-xl shadow-xl"
+              />
+              <div className="absolute -bottom-4 -left-4 bg-laranja-cta text-white px-6 py-3 rounded-lg shadow-lg font-bold">
+                💃 Você Merece Isso!
+              </div>
             </div>
           </div>
 
