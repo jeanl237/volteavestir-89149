@@ -20,29 +20,22 @@ const HeroSection: React.FC = () => {
               sem dietas malucas ou exercícios extenuantes.
             </h2>
           </div>
-          <div className="flex items-center justify-center gap-8">
-            <div className="relative">
+          <div className="flex justify-center gap-2 h-full">
+            <div className="relative flex-1 max-w-[200px]">
               <img 
                 src={beforeImage} 
                 alt="Antes - Mulher com roupas largas" 
-                className="w-full max-w-xs h-auto rounded-lg shadow-2xl"
+                className="w-full h-[400px] object-cover rounded-lg shadow-2xl"
               />
               <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-neutro-escuro text-white px-3 py-1 rounded-full text-sm font-bold">
                 ANTES
               </div>
             </div>
-            <div className="text-center">
-              <div className="w-8 h-8 bg-verde-principal rounded-full flex items-center justify-center mx-auto">
-                <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M3 10a1 1 0 011-1h8.586l-2.293-2.293a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H4a1 1 0 01-1-1z" clipRule="evenodd" />
-                </svg>
-              </div>
-            </div>
-            <div className="relative">
+            <div className="relative flex-1 max-w-[200px]">
               <img 
                 src={afterImage} 
                 alt="Depois - Mulher feliz com roupas que servem perfeitamente" 
-                className="w-full max-w-xs h-auto rounded-lg shadow-2xl"
+                className="w-full h-[400px] object-cover rounded-lg shadow-2xl"
               />
               <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-verde-principal text-white px-3 py-1 rounded-full text-sm font-bold">
                 DEPOIS
