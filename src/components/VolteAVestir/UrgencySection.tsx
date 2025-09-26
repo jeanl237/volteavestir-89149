@@ -31,8 +31,8 @@ const UrgencySection: React.FC = () => {
           <div className="bg-red-500/20 border border-red-500 p-6 rounded-xl">
             <h4 className="text-xl font-bold mb-3 text-red-300">❌ Se Você Perder Esta Oferta:</h4>
             <ul className="text-left space-y-2 text-sm">
-              <li>• Preço volta para R$ 197 (valor normal)</li>
-              <li>• Perde os R$ 258 em bônus exclusivos</li>
+              <li>• Preço volta para R$ 197,00 (valor normal)</li>
+              <li>• Perde os R$ 597,00 em bônus exclusivos</li>
               <li>• Continua frustrada com dietas que não funcionam</li>
               <li>• Roupas continuam guardadas no armário</li>
             </ul>
@@ -41,8 +41,8 @@ const UrgencySection: React.FC = () => {
           <div className="bg-verde-principal/20 border border-verde-principal p-6 rounded-xl">
             <h4 className="text-xl font-bold mb-3 text-verde-principal">✅ Se Você Agir Agora:</h4>
             <ul className="text-left space-y-2 text-sm">
-              <li>• E-book completo por apenas R$ 47</li>
-              <li>• Todos os 6 bônus inclusos (R$ 258 grátis)</li>
+              <li>• E-book completo por apenas R$ 97,00 (51% OFF)</li>
+              <li>• Todos os 6 bônus inclusos (R$ 597,00 grátis)</li>
               <li>• Acesso imediato ao método</li>
               <li>• Transformação garantida em semanas</li>
             </ul>

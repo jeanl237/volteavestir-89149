@@ -25,21 +25,19 @@ const PresentationSection: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 items-start">
-          <div className="space-y-8">
-            <div className="bg-gradient-to-r from-verde-principal/10 to-verde-secundario/10 p-6 rounded-xl border-l-4 border-verde-principal">
-              <h3 className="text-2xl font-bold text-neutro-escuro mb-4">
-                O Que Você Vai Descobrir:
-              </h3>
-              <ul className="space-y-3">
-                {benefits.map((benefit, index) => (
-                  <li key={index} className="flex items-start space-x-3">
-                    <Check className="w-6 h-6 text-verde-principal flex-shrink-0 mt-0.5" />
-                    <span className="text-gray-700">{benefit}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
+        <div className="grid md:grid-cols-2 gap-12 items-end">
+          <div className="bg-gradient-to-r from-verde-principal/10 to-verde-secundario/10 p-8 rounded-2xl border-l-4 border-verde-principal shadow-xl">
+            <h3 className="text-2xl font-bold text-neutro-escuro mb-4">
+              O Que Você Vai Descobrir:
+            </h3>
+            <ul className="space-y-3">
+              {benefits.map((benefit, index) => (
+                <li key={index} className="flex items-start space-x-3">
+                  <Check className="w-6 h-6 text-verde-principal flex-shrink-0 mt-0.5" />
+                  <span className="text-gray-700">{benefit}</span>
+                </li>
+              ))}
+            </ul>
           </div>
 
           <div className="bg-gradient-to-br from-neutro-claro to-white p-8 rounded-2xl shadow-xl">

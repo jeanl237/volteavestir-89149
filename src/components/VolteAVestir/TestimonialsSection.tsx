@@ -1,6 +1,6 @@
 import React from 'react';
 import { Star, Quote } from 'lucide-react';
-import beforeAfterImage from '@/assets/lp-image-before-after.jpg';
+import beforeAfterImage from '@/assets/lp-image-testimonial-mirror.jpg';
 
 const TestimonialsSection: React.FC = () => {
   const testimonials = [

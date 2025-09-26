@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import heroImage from '@/assets/lp-image-hero-realistic.jpg';
+import beforeImage from '@/assets/lp-image-before.jpg';
+import afterImage from '@/assets/lp-image-after.jpg';
 
 const HeroSection: React.FC = () => {
   return (
@@ -22,7 +23,7 @@ const HeroSection: React.FC = () => {
           <div className="relative flex flex-col items-center space-y-4">
             <div className="relative">
               <img 
-                src={heroImage} 
+                src={beforeImage} 
                 alt="Antes - Mulher com roupas largas" 
                 className="w-full max-w-sm h-auto rounded-lg shadow-2xl"
               />
@@ -39,7 +40,7 @@ const HeroSection: React.FC = () => {
             </div>
             <div className="relative">
               <img 
-                src={heroImage} 
+                src={afterImage} 
                 alt="Depois - Mulher feliz com roupas que servem perfeitamente" 
                 className="w-full max-w-sm h-auto rounded-lg shadow-2xl"
               />
