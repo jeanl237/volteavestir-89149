@@ -50,7 +50,7 @@ const BonusSection: React.FC = () => {
             <span>BÔNUS EXCLUSIVOS INCLUSOS</span>
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-neutro-escuro mb-6">
-            Receba <span className="text-verde-principal">6 Bônus Incríveis</span> 
+            Receba <span className="text-verde-principal">6 Bônus Incríveis do "Volte a Vestir"</span> 
             <br />Sem Custo Adicional!
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">

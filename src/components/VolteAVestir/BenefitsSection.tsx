@@ -1,7 +1,7 @@
 import React from 'react';
 import { Heart, Zap, Target, Smile, ShoppingBag, Users } from 'lucide-react';
 import benefitsImage from '@/assets/lp-image-benefits-realistic.jpg';
-import benefitsImage2 from '@/assets/lp-image-benefits-2-new.jpg';
+import benefitsImage2 from '@/assets/lp-image-benefits-2-corrected.jpg';
 
 const BenefitsSection: React.FC = () => {
   const benefits = [
