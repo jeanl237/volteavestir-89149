@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
         <div className="text-center space-y-6">
           <div>
             <h3 className="text-2xl font-bold text-verde-principal mb-2">
-              Volta a Vestir
+              Volte a Vestir
             </h3>
             <p className="text-gray-400 max-w-2xl mx-auto">
               Transforme sua vida com hábitos simples e sustentáveis. 
@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
           
           <div className="border-t border-gray-700 pt-6">
             <p className="text-sm text-gray-400">
-              © 2024 Volta a Vestir. Todos os direitos reservados. 
+              © 2024 Volte a Vestir. Todos os direitos reservados. 
               <br />
               Este site não está afiliado ao Facebook, Google ou qualquer dessas empresas. 
               Vendas processadas pela plataforma Hotmart.

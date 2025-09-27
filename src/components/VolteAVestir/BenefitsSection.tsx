@@ -1,7 +1,7 @@
 import React from 'react';
 import { Heart, Zap, Target, Smile, ShoppingBag, Users } from 'lucide-react';
 import benefitsImage from '@/assets/lp-image-benefits-realistic.jpg';
-import benefitsImage2 from '@/assets/lp-image-benefits-2-corrected.jpg';
+import benefitsImage2 from '@/assets/lp-image-benefits-2-slim.jpg';
 
 const BenefitsSection: React.FC = () => {
   const benefits = [
@@ -48,7 +48,7 @@ const BenefitsSection: React.FC = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-neutro-escuro mb-6">
-            Transforme Sua Vida Com o <span className="text-verde-principal">"Volta a Vestir"</span>
+            Transforme Sua Vida Com o <span className="text-verde-principal">"Volte a Vestir"</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-verde-principal to-verde-secundario mx-auto mb-6"></div>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">

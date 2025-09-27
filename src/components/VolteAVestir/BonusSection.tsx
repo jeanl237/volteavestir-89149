@@ -109,7 +109,7 @@ const BonusSection: React.FC = () => {
               </div>
               <p className="text-gray-600 text-sm">
                 Todos os bônus estão inclusos sem custo adicional quando você adquire 
-                o e-book "Volta a Vestir" hoje!
+                o e-book "Volte a Vestir" hoje!
               </p>
             </div>
           </div>

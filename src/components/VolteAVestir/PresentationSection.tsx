@@ -15,7 +15,7 @@ const PresentationSection: React.FC = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-neutro-escuro mb-6">
-            Conheça o E-book <span className="text-verde-principal">"Volta a Vestir"</span>
+            Conheça o E-book <span className="text-verde-principal">"Volte a Vestir"</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-verde-principal to-verde-secundario mx-auto mb-6"></div>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
@@ -75,7 +75,7 @@ const PresentationSection: React.FC = () => {
             </h4>
             <p className="text-lg text-gray-700 leading-relaxed">
               Ao contrário de outros métodos que prometem milagres overnight, 
-              o "Volta a Vestir" foca em <strong>mudanças graduais e sustentáveis</strong> que 
+              o "Volte a Vestir" foca em <strong>mudanças graduais e sustentáveis</strong> que 
               se integram naturalmente ao seu estilo de vida atual.
             </p>
           </div>

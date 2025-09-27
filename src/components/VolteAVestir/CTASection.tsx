@@ -42,7 +42,7 @@ const CTASection: React.FC<CTASectionProps> = ({
               <div className="space-y-3 text-left">
                 <div className="flex items-center space-x-2">
                   <Check className="w-5 h-5" />
-                  <span>E-book completo "Volta a Vestir"</span>
+                  <span>E-book completo "Volte a Vestir"</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Check className="w-5 h-5" />

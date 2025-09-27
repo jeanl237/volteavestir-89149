@@ -8,7 +8,7 @@ interface FAQItem {
 
 const faqData: FAQItem[] = [
   {
-    question: "O e-book 'Volta a Vestir' realmente funciona?",
+    question: "O e-book 'Volte a Vestir' realmente funciona?",
     answer: "Sim! O e-book contém 9 hábitos cientificamente comprovados que promovem o emagrecimento de forma natural e sustentável. Milhares de pessoas já transformaram suas vidas seguindo essas estratégias simples."
   },
   {
@@ -17,7 +17,7 @@ const faqData: FAQItem[] = [
   },
   {
     question: "Preciso fazer dietas restritivas ou exercícios intensos?",
-    answer: "Não! O método 'Volta a Vestir' é baseado em hábitos simples e sustentáveis. Nada de dietas malucas ou exercícios extenuantes. São pequenas mudanças que cabem na sua rotina atual."
+    answer: "Não! O método 'Volte a Vestir' é baseado em hábitos simples e sustentáveis. Nada de dietas malucas ou exercícios extenuantes. São pequenas mudanças que cabem na sua rotina atual."
   },
   {
     question: "O método funciona para qualquer idade?",

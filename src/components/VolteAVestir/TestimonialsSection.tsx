@@ -22,7 +22,7 @@ const TestimonialsSection: React.FC = () => {
       name: "Carla Santos",
       age: "28 anos",
       result: "Perdeu 18kg em 5 meses",
-      text: "Eram 3 anos tentando emagrecer após a gravidez. Com o Volta a Vestir consegui não só perder peso, mas também manter! Minha autoestima voltou e me sinto incrível.",
+      text: "Eram 3 anos tentando emagrecer após a gravidez. Com o Volte a Vestir consegui não só perder peso, mas também manter! Minha autoestima voltou e me sinto incrível.",
       rating: 5
     }
   ];
@@ -37,7 +37,7 @@ const TestimonialsSection: React.FC = () => {
           <div className="w-24 h-1 bg-gradient-to-r from-verde-principal to-verde-secundario mx-auto mb-6"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Conheça algumas das milhares de mulheres que já conquistaram o corpo dos sonhos 
-            com o método "Volta a Vestir".
+            com o método "Volte a Vestir".
           </p>
         </div>
 
