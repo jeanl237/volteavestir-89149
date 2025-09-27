@@ -10,7 +10,7 @@ const UrgencySection: React.FC = () => {
         <div className="flex items-center justify-center space-x-2 mb-6">
           <AlertCircle className="w-8 h-8 text-laranja-cta" />
           <h2 className="text-3xl md:text-4xl font-bold">
-            ⚠️ <span className="text-laranja-cta">ATENÇÃO:</span> Oferta Por Tempo Limitado!
+            <span className="text-laranja-cta">ATENÇÃO:</span> Oferta Por Tempo Limitado!
           </h2>
         </div>
         
@@ -24,7 +24,7 @@ const UrgencySection: React.FC = () => {
             <Clock className="w-6 h-6 text-laranja-cta" />
             <h3 className="text-2xl font-bold">Tempo Restante Para Garantir Sua Oferta:</h3>
           </div>
-          <CountdownTimer initialHours={2} initialMinutes={30} initialSeconds={0} />
+          <CountdownTimer initialHours={0} initialMinutes={15} initialSeconds={0} />
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 mb-12">
