@@ -1,6 +1,6 @@
 import React from 'react';
 import { Gift } from 'lucide-react';
-import bonusImage from '@/assets/lp-image-bonus-new.png';
+import bonusImage from '@/assets/lp-image-bonus-corrected.png';
 
 const BonusSection: React.FC = () => {
   const bonuses = [
