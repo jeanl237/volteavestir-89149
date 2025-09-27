@@ -25,8 +25,7 @@ const CTASection: React.FC<CTASectionProps> = ({
         </h2>
         
         {subtitle && (
-          <p className="text-xl md:text-2xl mb-8 leading-relaxed opacity-95">
-            {subtitle}
+          <p className="text-xl md:text-2xl mb-8 leading-relaxed opacity-95" dangerouslySetInnerHTML={{ __html: subtitle }}>
           </p>
         )}
 

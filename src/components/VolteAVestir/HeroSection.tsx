@@ -48,7 +48,7 @@ const HeroSection: React.FC = () => {
         </div>
             <div className="bg-azul-detalhe/10 border-l-4 border-azul-detalhe p-6 rounded-r-lg mt-8">
               <p className="text-lg text-neutro-escuro text-center">
-                <strong>⏱️ Assista ao vídeo exclusivo abaixo</strong> e descubra como milhares de mulheres 
+                <strong>⏱️ Assista ao vídeo exclusivo abaixo e descubra como milhares de mulheres</strong><br />
                 estão transformando seus corpos e recuperando a autoestima!
               </p>
             </div>
@@ -56,7 +56,8 @@ const HeroSection: React.FC = () => {
         {/* VSL Area */}
         <div className="mt-16 bg-white rounded-xl shadow-lg p-8 mx-auto max-w-4xl">
           <h3 className="text-2xl md:text-3xl font-bold text-center text-neutro-escuro mb-8">
-            🎥 Assista Agora: O Segredo Para Emagrecer Sem Sofrimento
+            🎥 Assista Agora: O Segredo Para<br />
+            Emagrecer Sem Sofrimento
           </h3>
           <div className="aspect-video bg-gray-100 rounded-lg flex items-center justify-center">
             <div className="text-center text-gray-500">

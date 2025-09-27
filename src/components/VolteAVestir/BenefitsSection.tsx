@@ -52,8 +52,8 @@ const BenefitsSection: React.FC = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-verde-principal to-verde-secundario mx-auto mb-6"></div>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Muito mais do que perder peso, você vai <strong>redescobrir sua melhor versão</strong> 
-            e construir uma vida mais saudável e feliz.
+            Muito mais do que perder peso, você vai <strong>redescobrir sua melhor versão</strong> e construir<br />
+            uma vida mais saudável e feliz.
           </p>
         </div>
 
@@ -112,9 +112,8 @@ const BenefitsSection: React.FC = () => {
               🎯 <span className="text-verde-principal">Imagine-se daqui a 3 meses...</span>
             </h3>
             <p className="text-lg text-gray-700 leading-relaxed max-w-4xl mx-auto">
-              Vestindo aquele vestido que você ama, sentindo-se confiante e radiante, 
-              com energia para brincar com seus filhos, e sendo um exemplo de transformação 
-              para todas as pessoas ao seu redor. <strong className="text-verde-principal">Esse futuro está ao seu alcance!</strong>
+              Vestindo aquele vestido que você ama, sentindo-se confiante e radiante, com energia para brincar com seus filhos, e sendo um exemplo de transformação para todas as pessoas ao seu redor.<br />
+              <strong className="text-verde-principal">Esse futuro está ao seu alcance!</strong>
             </p>
           </div>
         </div>

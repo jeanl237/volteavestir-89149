@@ -40,7 +40,7 @@ const VolteAVestirLanding: React.FC = () => {
       {/* PARTE 7 - CTA 2 */}
       <CTASection 
         title="✨ Junte-se às Milhares de Mulheres Que Já Se Transformaram!"
-        subtitle="Não fique de fora dessa revolução. Seus sonhos estão a apenas um clique de distância."
+        subtitle="Não fique de fora dessa revolução.<br />Seus sonhos estão a apenas um clique de distância."
         buttonText="💎 SIM! QUERO MINHA TRANSFORMAÇÃO!"
         showGuarantee={true}
       />
