@@ -59,16 +59,15 @@ const HeroSection: React.FC = () => {
             🎥 Assista Agora: O Segredo Para<br />
             Emagrecer Sem Sofrimento
           </h3>
-          <div className="aspect-video bg-gray-100 rounded-lg flex items-center justify-center">
-            <div className="text-center text-gray-500">
-              <div className="w-16 h-16 bg-verde-principal rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" />
-                </svg>
-              </div>
-              <p className="text-lg font-semibold">ÁREA DO VSL (Video Sales Letter)</p>
-              <p className="text-sm mt-2">Integre aqui seu vídeo de vendas</p>
-            </div>
+          <div className="aspect-video bg-gray-100 rounded-lg overflow-hidden">
+            <iframe 
+              className="w-full h-full"
+              src="https://www.youtube.com/embed/SEU_VIDEO_ID_AQUI"
+              title="Vídeo de Vendas"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
           </div>
           <div className="text-center mt-6">
             <Button 
