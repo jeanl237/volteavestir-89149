@@ -59,16 +59,17 @@ const HeroSection: React.FC = () => {
             🎥 Assista Agora: O Segredo Para<br />
             Emagrecer Sem Sofrimento
           </h3>
-          <div className="aspect-video bg-gray-100 rounded-lg overflow-hidden">
+          <div className="relative rounded-lg overflow-hidden" style={{padding: '56.25% 0 0 0', position: 'relative'}}>
             <iframe 
-              className="w-full h-full"
-              src="https://www.youtube.com/embed/SEU_VIDEO_ID_AQUI"
-              title="Vídeo de Vendas"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
+              src="https://player.vimeo.com/video/1125915003?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1" 
+              frameBorder="0" 
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
+              referrerPolicy="strict-origin-when-cross-origin" 
+              style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}} 
+              title="APERTE O PLAY⬇️⬇️"
             ></iframe>
           </div>
+          <script src="https://player.vimeo.com/api/player.js"></script>
           <div className="text-center mt-6">
             <Button 
               size="lg" 
