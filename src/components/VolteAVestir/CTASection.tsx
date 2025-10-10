@@ -34,7 +34,7 @@ const CTASection: React.FC<CTASectionProps> = ({
             <div className="grid md:grid-cols-2 gap-6 items-center">
               <div>
                 <div className="text-lg opacity-75 line-through mb-2">De R$ 197</div>
-                <div className="text-5xl font-bold mb-2">R$ 97</div>
+                <div className="text-5xl font-bold mb-2">R$ 47</div>
                 <div className="text-sm font-bold text-laranja-cta bg-white/20 px-3 py-1 rounded-full">51% OFF</div>
                 <div className="text-sm opacity-75">Pagamento único • Sem mensalidades</div>
               </div>
