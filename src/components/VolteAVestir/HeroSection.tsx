@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import beforeImage from '@/assets/lp-image-before.jpg';
-import afterImage from '@/assets/lp-image-after.jpg';
+import beforeImage from '../../assets/lp-image-before.jpg';
+import afterImage from '../../assets/lp-image-after.jpg';
 
 const HeroSection: React.FC = () => {
   return (
