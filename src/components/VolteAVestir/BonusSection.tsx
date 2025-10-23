@@ -12,7 +12,7 @@ const BonusSection: React.FC = () => {
     {
       title: "Guia Rápido de Substituições Inteligentes",
       description: "Lista completa de trocas saudáveis para seus alimentos favoritos sem perder o sabor.",
-      value: "R$ 47"
+      value: "R$ 27"
     },
     {
       title: "Checklist de Hábitos Diários para Emagrecimento",
