@@ -8,36 +8,20 @@ interface FAQItem {
 
 const faqData: FAQItem[] = [
   {
-    question: "O e-book 'Volte a Vestir' realmente funciona?",
-    answer: "Sim! O e-book contém 9 hábitos cientificamente comprovados que promovem o emagrecimento de forma natural e sustentável. Milhares de pessoas já transformaram suas vidas seguindo essas estratégias simples."
+    question: "Como vou receber o e-book após a compra?",
+    answer: "Após a confirmação do pagamento, você receberá imediatamente no seu e-mail o link para download do e-book e todos os bônus em formato PDF. O acesso é instantâneo e você pode começar a ler em qualquer dispositivo."
   },
   {
-    question: "Em quanto tempo vou ver os primeiros resultados?",
-    answer: "Os primeiros resultados podem aparecer já na primeira semana, com melhora na disposição e redução do inchaço. A perda de peso consistente acontece gradualmente, respeitando o ritmo natural do seu corpo."
+    question: "Em que formato está o e-book?",
+    answer: "O e-book está em formato PDF, compatível com qualquer dispositivo (computador, tablet, celular). Você pode ler online ou baixar para ler offline quando quiser."
   },
   {
-    question: "Preciso fazer dietas restritivas ou exercícios intensos?",
-    answer: "Não! O método 'Volte a Vestir' é baseado em hábitos simples e sustentáveis. Nada de dietas malucas ou exercícios extenuantes. São pequenas mudanças que cabem na sua rotina atual."
+    question: "Como funciona o prazo de reembolso?",
+    answer: "Você tem 7 dias de garantia incondicional. Se por qualquer motivo não ficar satisfeita com o conteúdo, basta solicitar o reembolso e devolvemos 100% do seu investimento, sem perguntas ou burocracias."
   },
   {
-    question: "O método funciona para qualquer idade?",
-    answer: "Sim! Os 9 hábitos são adequados para pessoas de qualquer idade, desde que não tenham restrições médicas específicas. Sempre recomendamos consultar um profissional de saúde antes de iniciar qualquer programa."
-  },
-  {
-    question: "E se eu não conseguir seguir todos os hábitos?",
-    answer: "O método é flexível! Você pode começar com apenas alguns hábitos e ir incorporando outros gradualmente. Cada pequena mudança já faz diferença no seu processo de emagrecimento."
-  },
-  {
-    question: "Os bônus estão inclusos no valor?",
-    answer: "Sim! Todos os 6 bônus estão inclusos sem custo adicional. São materiais complementares que vão acelerar seus resultados e facilitar ainda mais sua jornada."
-  },
-  {
-    question: "Existe garantia?",
-    answer: "Sim! Oferecemos 7 dias de garantia incondicional. Se por qualquer motivo você não ficar satisfeita, devolvemos 100% do seu investimento."
-  },
-  {
-    question: "Como receberei o material?",
-    answer: "Após a confirmação do pagamento, você receberá imediatamente no seu e-mail o link para download do e-book e todos os bônus em formato PDF."
+    question: "Este método funciona para mim?",
+    answer: "O método 'Volte a Vestir' traz um plano prático com hábitos simples e sustentáveis, adequado para a maioria das pessoas. No entanto, os resultados dependem da sua aplicação e consistência. Cada pessoa é única e os resultados podem variar. Sempre recomendamos consultar um profissional de saúde antes de iniciar."
   }
 ];
 

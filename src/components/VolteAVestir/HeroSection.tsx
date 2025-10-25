@@ -10,15 +10,17 @@ const HeroSection: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-left">
-              <div className="text-neutro-escuro">Volte a Usar Suas</div>
-              <div className="text-verde-principal">Roupas Favoritas</div>
-              <div className="text-neutro-escuro">em Poucos Meses</div>
+              <div className="text-neutro-escuro">Volte a Vestir:</div>
+              <div className="text-verde-principal">o método natural</div>
+              <div className="text-neutro-escuro">para recuperar seu corpo e autoestima</div>
+              <div className="text-gray-600 text-2xl md:text-3xl mt-2">— sem dietas extremas</div>
             </h1>
             <h2 className="text-xl md:text-2xl text-gray-600 leading-relaxed">
-              Descubra os <strong>9 hábitos simples</strong> que vão te fazer emagrecer de forma 
-              <strong className="text-verde-secundario"> natural e sustentável</strong>, 
-              sem dietas malucas ou exercícios extenuantes.
+              E-book prático com estratégias fáceis + plano de 7 dias — projeto pensado para quem quer <strong className="text-verde-secundario">resultados reais e sustentáveis</strong>.
             </h2>
+            <p className="text-base md:text-lg text-gray-500 italic">
+              Criado com método testado e baseado em práticas nutricionais e comportamentais comprovadas.
+            </p>
           </div>
           <div className="flex justify-center gap-3 h-full">
             <div className="relative flex-1 max-w-[280px]">
@@ -76,8 +78,11 @@ const HeroSection: React.FC = () => {
               variant="cta"
               onClick={() => window.open('https://pay.hotmart.com/U101846267U', '_blank')}
             >
-              🔥 QUERO MEU E-BOOK AGORA!
+              🎁 Quero o e-book + bônus (R$27)
             </Button>
+            <p className="text-sm text-gray-500 mt-3">
+              🔒 Entrega Digital Imediata • Garantia 7 dias — Reembolso Total
+            </p>
           </div>
         </div>
       </div>

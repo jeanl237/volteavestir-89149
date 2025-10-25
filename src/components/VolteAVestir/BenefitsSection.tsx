@@ -6,40 +6,39 @@ import benefitsImage2 from '@/assets/lp-image-benefits-2-slim.jpg';
 const BenefitsSection: React.FC = () => {
   const benefits = [
     {
-      icon: Heart,
-      title: "Saúde em Primeiro Lugar",
-      description: "Melhore seus exames, disposição e qualidade de vida de forma natural e sustentável.",
-      color: "text-red-500"
+      icon: ShoppingBag,
+      title: "Voltar a vestir sua roupa favorita",
+      description: "Em poucas semanas você vai caber naquela roupa que tanto ama e estava guardada no armário",
+      color: "text-laranja-cta",
+      highlight: "✨ Resultado visível rapidamente"
     },
     {
-      icon: Zap,
-      title: "Mais Energia e Disposição",
-      description: "Sinta-se mais ativa e disposta para aproveitar a vida com sua família e amigos.",
-      color: "text-yellow-500"
+      icon: Heart,
+      title: "Rotina alimentar simples",
+      description: "Método fácil de seguir, sem passar fome ou cortar grupos alimentares",
+      color: "text-red-500",
+      highlight: "🍽️ Sem restrições extremas"
     },
     {
       icon: Target,
-      title: "Resultados Duradouros",
-      description: "Conquiste o peso ideal e mantenha sem efeito sanfona ou dietas restritivas.",
-      color: "text-verde-principal"
+      title: "Cardápios e receitas práticas",
+      description: "Plano completo de 7 dias para você já começar hoje mesmo sua transformação",
+      color: "text-verde-principal",
+      highlight: "📋 Pronto para usar"
     },
     {
       icon: Smile,
-      title: "Autoestima Renovada",
-      description: "Recupere a confiança e se sinta bem consigo mesma em qualquer situação.",
-      color: "text-azul-detalhe"
+      title: "Dicas psicológicas",
+      description: "Estratégias mentais para manter a motivação e o resultado a longo prazo",
+      color: "text-azul-detalhe",
+      highlight: "💪 Mentalidade de sucesso"
     },
     {
-      icon: ShoppingBag,
-      title: "Vista Suas Roupas Favoritas",
-      description: "Volte a usar aquelas peças que estão guardadas no armário esperando por você.",
-      color: "text-laranja-cta"
-    },
-    {
-      icon: Users,
-      title: "Seja um Exemplo",
-      description: "Inspire sua família e amigos com sua transformação e hábitos saudáveis.",
-      color: "text-purple-500"
+      icon: Zap,
+      title: "Estratégias sustentáveis",
+      description: "Evite o efeito sanfona com hábitos duradouros que cabem na sua rotina",
+      color: "text-yellow-500",
+      highlight: "🔄 Resultado permanente"
     }
   ];
 
@@ -48,12 +47,11 @@ const BenefitsSection: React.FC = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-neutro-escuro mb-6">
-            Transforme Sua Vida Com o <span className="text-verde-principal">"Volte a Vestir"</span>
+            O Que Você Vai <span className="text-verde-principal">Conquistar</span> Com Este E-book
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-verde-principal to-verde-secundario mx-auto mb-6"></div>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Muito mais do que perder peso, você vai <strong>redescobrir sua melhor versão</strong> e construir<br />
-            uma vida mais saudável e feliz.
+            Resultados reais e transformação completa com um método simples e prático
           </p>
         </div>
 
@@ -81,23 +79,26 @@ const BenefitsSection: React.FC = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="space-y-4">
             {benefits.map((benefit, index) => {
               const Icon = benefit.icon;
               return (
                 <div 
                   key={index}
-                  className="flex flex-col items-center text-center p-6 bg-gradient-to-br from-neutro-claro/50 to-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100"
+                  className="flex items-start gap-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border-l-4 border-verde-principal"
                 >
-                  <div className={`w-16 h-16 rounded-full bg-white flex items-center justify-center shadow-md mb-4 ${benefit.color}`}>
-                    <Icon className="w-8 h-8" />
+                  <div className={`w-12 h-12 flex-shrink-0 rounded-full bg-gradient-to-br from-neutro-claro to-white flex items-center justify-center shadow-md ${benefit.color}`}>
+                    <Icon className="w-6 h-6" />
                   </div>
-                  <div>
-                    <h3 className="text-lg font-bold text-neutro-escuro mb-3">
+                  <div className="flex-1">
+                    <h3 className="text-xl font-bold text-neutro-escuro mb-2">
                       {benefit.title}
                     </h3>
-                    <p className="text-gray-600 leading-relaxed text-sm">
+                    <p className="text-gray-600 leading-relaxed mb-2">
                       {benefit.description}
+                    </p>
+                    <p className="text-sm text-verde-principal font-semibold">
+                      {benefit.highlight}
                     </p>
                   </div>
                 </div>

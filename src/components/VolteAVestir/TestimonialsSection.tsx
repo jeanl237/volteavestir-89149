@@ -5,24 +5,24 @@ import beforeAfterImage from '@/assets/lp-image-testimonial-mirror.jpg';
 const TestimonialsSection: React.FC = () => {
   const testimonials = [
     {
-      name: "Maria Silva",
-      age: "34 anos",
-      result: "Perdeu 15kg em 4 meses",
-      text: "Depois de tentar várias dietas sem sucesso, finalmente encontrei algo que funciona de verdade! Os 9 hábitos são simples e se encaixaram perfeitamente na minha rotina de mãe. Hoje visto tamanho 40 novamente!",
+      name: "Ana M.",
+      age: "38 anos",
+      result: "Em 4 semanas, senti minha roupa mais folgada",
+      text: "Recuperei minha confiança — caí 4 cm de cintura em 4 semanas",
       rating: 5
     },
     {
-      name: "Ana Costa",
-      age: "42 anos", 
-      result: "Perdeu 22kg em 6 meses",
-      text: "O que mais me impressionou foi não sentir que estava fazendo dieta. As mudanças foram tão graduais que nem percebi quando começei a emagrecer. Agora tenho energia para correr atrás dos meus filhos!",
+      name: "Júlia R.",
+      age: "32 anos", 
+      result: "Voltei a vestir meu jeans favorito",
+      text: "Método simples e prático. Em 6 semanas já vi resultado real no espelho",
       rating: 5
     },
     {
-      name: "Carla Santos",
-      age: "28 anos",
-      result: "Perdeu 18kg em 5 meses",
-      text: "Eram 3 anos tentando emagrecer após a gravidez. Com o Volte a Vestir consegui não só perder peso, mas também manter! Minha autoestima voltou e me sinto incrível.",
+      name: "Carolina S.",
+      age: "45 anos",
+      result: "Perdi medidas sem passar fome",
+      text: "Finalmente um método que funciona sem sacrifícios impossíveis. Recomendo!",
       rating: 5
     }
   ];
@@ -36,8 +36,10 @@ const TestimonialsSection: React.FC = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-verde-principal to-verde-secundario mx-auto mb-6"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Conheça algumas das milhares de mulheres que já conquistaram o corpo dos sonhos 
-            com o método "Volte a Vestir".
+            Depoimentos de pessoas que testaram o método piloto e alcançaram resultados reais
+          </p>
+          <p className="text-sm text-gray-500 mt-2 italic">
+            *Resultados individuais podem variar conforme aplicação do método
           </p>
         </div>
 
@@ -58,14 +60,13 @@ const TestimonialsSection: React.FC = () => {
               <div className="flex items-center mb-4">
                 <Quote className="w-8 h-8 text-verde-principal mr-3" />
                 <div>
-                  <h4 className="font-bold text-neutro-escuro">Júlia Ferreira</h4>
-                  <p className="text-sm text-gray-500">39 anos - Perdeu 25kg</p>
+                  <h4 className="font-bold text-neutro-escuro">Mariana P.</h4>
+                  <p className="text-sm text-gray-500">41 anos</p>
                 </div>
               </div>
               <p className="text-gray-700 leading-relaxed italic">
-                "Era a terceira vez que tentava emagrecer depois dos 35. Desta vez foi diferente - 
-                não foi uma dieta, foi uma mudança de estilo de vida. Hoje uso roupas que nem 
-                sonhava que voltaria a vestir!"
+                "Método realmente prático e fácil de seguir. Em 8 semanas já senti diferença 
+                real no meu corpo e disposição. Voltei a me sentir bem comigo mesma!"
               </p>
               <div className="flex items-center mt-4">
                 {[...Array(5)].map((_, i) => (
