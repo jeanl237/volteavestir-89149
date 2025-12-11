@@ -64,7 +64,7 @@ const CTASection: React.FC<CTASectionProps> = ({
           size="lg" 
           variant="cta"
           className="text-xl py-6 px-12 bg-laranja-cta hover:bg-laranja-cta/90 mb-6"
-          onClick={() => window.open('https://pay.hotmart.com/U101846267U', '_blank')}
+          onClick={() => window.open('https://pay.hotmart.com/U101846267U?checkoutMode=10', '_blank')}
         >
           {buttonText}
         </Button>

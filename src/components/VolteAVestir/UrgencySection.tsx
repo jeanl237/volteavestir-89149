@@ -64,7 +64,7 @@ const UrgencySection: React.FC = () => {
           size="lg" 
           variant="cta"
           className="text-xl py-6 px-12"
-          onClick={() => window.open('https://pay.hotmart.com/U101846267U', '_blank')}
+          onClick={() => window.open('https://pay.hotmart.com/U101846267U?checkoutMode=10', '_blank')}
         >
           🔥 SIM! QUERO MINHA TRANSFORMAÇÃO AGORA!
           <br />
