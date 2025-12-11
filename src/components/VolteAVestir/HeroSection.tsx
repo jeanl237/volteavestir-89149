@@ -76,7 +76,7 @@ const HeroSection: React.FC = () => {
             <Button 
               size="lg" 
               variant="cta"
-              onClick={() => window.open('https://pay.hotmart.com/U101846267U', '_blank')}
+              onClick={() => window.open('https://pay.hotmart.com/U101846267U?checkoutMode=10', '_blank')}
             >
               🎁 Quero o e-book + bônus (R$27)
             </Button>
